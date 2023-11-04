@@ -1,6 +1,8 @@
 # Steam Machine
 
-## Шаги настройки
+## Запуск в Windows
+
+### Шаги настройки
 
 1. - [x] Download ISO with Windows 10
     - https://tb.rg-adguard.net/public.php
@@ -15,9 +17,17 @@
 8. - [ ] Change default logo on windows boot screen
 9. - [ ] Change default text with reebout and shutdown
 
-## Дополнительное оборудование
+## Запуск в linux
 
-### 8BitDo Ultimate 2.4GHz (from https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)
+### Дополнительное оборудование
+
+#### Внешний ntfs-диск
+
+Добавить в `/etc/fstab` запись `UUID=2E17E25E7FAAA87C /media/akioo/EXTERNAL_256GB ntfs3 rw,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,uhelper=udisks2 0 0`, для корректной работы Proton
+
+Источник https://wiki.archlinux.org/title/Steam/Troubleshooting#Steam_Library_in_NTFS_partition
+
+#### 8BitDo Ultimate 2.4GHz (from https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)
 
 FROM https://www.reddit.com/r/Fedora/comments/zmvkdj/8bitdo_ultimate_bluetooth_controller_working_in/
 
