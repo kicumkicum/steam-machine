@@ -25,6 +25,8 @@
 
 Добавить в `/etc/fstab` запись `UUID=2E17E25E7FAAA87C /media/akioo/EXTERNAL_256GB ntfs3 rw,nosuid,nodev,relatime,uid=1000,gid=1000,iocharset=utf8,uhelper=udisks2 0 0`, для корректной работы Proton
 
+`UUID` можно получить командой `sudo blkid /dev/sda1`. Опции монтирования можно получить командой `mount |grep /media/akioo/EXTERNAL_256GB`, удалив из них `window_names`.
+
 Источник https://wiki.archlinux.org/title/Steam/Troubleshooting#Steam_Library_in_NTFS_partition
 
 #### 8BitDo Ultimate 2.4GHz (from https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)
