@@ -19,6 +19,12 @@
 
 ## Запуск в linux
 
+### Headless-режимы (не тестировал)
+
+- https://github.com/linuxserver/docker-steamos/
+  - Получилось запустить, но не удалось сделать докер инстанс, как отдельный ПК со своим ip адресом
+- https://github.com/Steam-Headless/docker-steam-headless/
+
 ### Дополнительное оборудование
 
 #### Внешний ntfs-диск
