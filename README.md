@@ -68,3 +68,11 @@ And link to the comment of u/GodOfEmus with the solution: [https://www.reddit.co
 
 
 Sharing this solution here to spread the word in our community
+
+## Запуск в виртуалке
+
+TODO
+
+## Запуск в docker
+
+TODO
