@@ -70,6 +70,8 @@ Sharing this solution here to spread the word in our community
 1. Linux в качстве хоста - менеджер виртуалок
 2. Ставим все для запуска KVM виртуалок. Их будет две: steam-vmachine и менеджер докер-контейнеров (для различных сервисов если нужно)
 3. Готовим систему для проброса видеокарты в steam-vmachine
+    - Инструкция по пробросу единственной видеокарты https://gitlab.com/risingprismtv/single-gpu-passthrough/-/wikis/1)-Preparations
+    - Инструкция по пробросу интегрированной карты https://3os.org/infrastructure/proxmox/gpu-passthrough/igpu-passthrough-to-vm/#debug
 4. Создаем виртуалку steam-vmachine
 5. Тестируем, фиксим баги
 6. Наслаждаемся
