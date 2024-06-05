@@ -87,3 +87,12 @@ Sharing this solution here to spread the word in our community
 ## SteamOS (не тестировал)
 
 https://store.steampowered.com/steamos/buildyourown?l=russian
+
+### Установка на VirtualBox
+
+https://www.youtube.com/watch?v=NJ2jvTgp4AA
+
+1. Скачать образ
+2. Распаковать `bzip2 -dk steamdeck-repair-latest.img.bz2`
+3. Сконвертировать в образ VDI `VBoxManage convertfromraw --format VDI steamdeck-repair-latest.img steamdeck-repair-latest.vdi`
+4. Создать виртуалку и добавить образ
