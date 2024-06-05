@@ -83,3 +83,7 @@ Sharing this solution here to spread the word in our community
 - https://github.com/linuxserver/docker-steamos/
   - Получилось запустить, но не удалось сделать докер инстанс, как отдельный ПК со своим ip адресом
 - https://github.com/Steam-Headless/docker-steam-headless/
+
+## SteamOS (не тестировал)
+
+https://store.steampowered.com/steamos/buildyourown?l=russian
